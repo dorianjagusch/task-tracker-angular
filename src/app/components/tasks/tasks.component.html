@@ -1,7 +1,11 @@
 <ul id="task-list">
   @for(task of tasks; track task){
   <li>
-    <app-task-item [task]="task"></app-task-item>
+    <app-task-item
+      (onDeleteTask)="deleteTask(task)"
+      (onToggleReminder)="toggleReminder(task)"
+      [task]="task"
+    ></app-task-item>
   </li>
   }
 </ul>
