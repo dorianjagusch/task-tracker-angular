@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    { "id": 1, "task": "Walk the dog", "date": "2023-01-01T08:00:00", "reminder": true },
+    { "id": 2, "task": "Go to the doctor", "date": "2023-01-02T10:00:00", "reminder": false },
+    { "id": 3, "task": "Buy groceries", "date": "2023-01-03T12:00:00", "reminder": true },
+    { "id": 4, "task": "Clean the house", "date": "2023-01-04T14:00:00", "reminder": false },
+    { "id": 5, "task": "Pay bills", "date": "2023-01-05T16:00:00", "reminder": true },
+    { "id": 6, "task": "Attend meeting", "date": "2023-01-06T09:00:00", "reminder": false },
+    { "id": 7, "task": "Exercise", "date": "2023-01-07T07:00:00", "reminder": true },
+    { "id": 8, "task": "Read a book", "date": "2023-01-08T18:00:00", "reminder": false },
+    { "id": 9, "task": "Call mom", "date": "2023-01-09T19:00:00", "reminder": true },
+    { "id": 10, "task": "Water plants", "date": "2023-01-10T08:30:00", "reminder": false }
+  ]
+}
