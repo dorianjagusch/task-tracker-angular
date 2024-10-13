@@ -2,11 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Task } from '../../interfaces/Task';
 import { TaskItemComponent } from '../task-item/task-item.component';
 import { TaskService } from '../../services/task.service';
+import { AddTaskComponent } from '../add-task/add-task.component';
+
 
 @Component({
   selector: 'app-tasks',
   standalone: true,
-  imports: [TaskItemComponent],
+  imports: [TaskItemComponent, AddTaskComponent],
   templateUrl: './tasks.component.html',
   styleUrl: './tasks.component.css',
 })
@@ -30,5 +32,9 @@ export class TasksComponent implements OnInit {
   toggleReminder(task: Task) {
     task.reminder = !task.reminder;
     this.taskService.toggleTaskReminder(task).subscribe();
+  }
+
+  addTask(task: Task) {
+    this.taskService.addTask(task).subscribe((task) => this.tasks.push(task));
   }
 }
