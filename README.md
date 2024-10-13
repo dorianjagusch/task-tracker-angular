@@ -60,16 +60,43 @@ The server will be available at http://localhost:3000/.
 ## Project Structure
 Here is an overview of the project structure:
 
-Key Files and Directories
-app.component.ts: The root component of the application.
-components/: Contains all the Angular components used in the application.
-services/: Contains services for handling data and business logic.
-db.json: JSON file used by the JSON server to simulate a backend.
-Learning Objectives
-By working on this project, you will learn:
+```markdown
+src/
+  app/
+    app.component.css
+    app.component.html
+    app.component.spec.ts
+    app.component.ts
+    app.config.ts
+    app.routes.ts
+    components/
+      add-task/
+      button/
+      header/
+      task-item/
+      tasks/
+    interfaces/
+    mock-tasks.ts
+    services/
+  index.html
+  main.ts
+  styles.css
+```
 
-Angular Components: How to create and use Angular components.
-Data Binding: How to use property binding, event binding, and two-way data binding.
-Services: How to create and use Angular services to manage data and business logic.
-Routing: How to navigate between different views using Angular Router.
-HTTP Client: How to make HTTP requests to a backend server using Angular's HttpClient module.
+## Key Files and Directories
+- `app.component.ts`: The root component of the application.
+- `components/`: Contains all the Angular components used in the application.
+- `services/`: Contains services for handling data and business logic.
+- `interfaces/`: Contains the TS interface for the Task type.
+- `db.json`: JSON file used by the JSON server to simulate a backend.
+
+## My learnings
+
+- Angular Components: How to create and use Angular components.
+- Data Binding: How to use property binding, event binding, and two-way data binding.
+- Custom Events: How to use Angular's EventEmitters to create custom events to use elsewhere
+- Services: How to create and use Angular services to manage data and business logic.
+- Routing: How to navigate between different views using Angular Router.
+- HTTP Client: How to make HTTP requests to a backend server using Angular's HttpClient module.
+- RXJS: Some basic methods from RXJS for simple interactions with Observers, Observables, Subscribers etc.
+- Some Typescript
