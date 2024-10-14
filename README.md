@@ -97,5 +97,5 @@ src/
 - Custom Events: How to use Angular's EventEmitters to create custom events to use elsewhere
 - Services: How to create and use Angular services to manage data and business logic.
 - HTTP Client: How to make HTTP requests to a backend server using Angular's HttpClient module.
-- RXJS: Some basic methods from RXJS for simple interactions with Observers, Observables, Subscribers etc.
+- RxJS: Some basic methods from RXJS for simple interactions with Observers, Observables, Subscribers etc.
 - Some Typescript
