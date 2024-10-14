@@ -96,7 +96,6 @@ src/
 - Data Binding: How to use property binding, event binding, and two-way data binding.
 - Custom Events: How to use Angular's EventEmitters to create custom events to use elsewhere
 - Services: How to create and use Angular services to manage data and business logic.
-- Routing: How to navigate between different views using Angular Router.
 - HTTP Client: How to make HTTP requests to a backend server using Angular's HttpClient module.
 - RXJS: Some basic methods from RXJS for simple interactions with Observers, Observables, Subscribers etc.
 - Some Typescript
